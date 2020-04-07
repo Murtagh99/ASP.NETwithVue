@@ -1,0 +1,23 @@
+{
+  "name": "Vue",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "css-loader": "^0.28.7",
+    "axios": "^0.19.2",
+    "vue": "^2.5.16",
+    "vue-axios": "^2.1.5",
+    "vue-loader": "^13.0.4",
+    "vue-resource": "^1.3.3",
+    "vue-router": "^2.7.0",
+    "vue-template-compiler": "^2.4.2",
+    "webpack": "^3.5.5"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-rc.10",
+    "@vue/cli-service": "^3.0.0-rc.10",
+    "vue-template-compiler": "^2.5.16"
+  }
+}
