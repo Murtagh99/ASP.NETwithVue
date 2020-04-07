@@ -150,6 +150,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Properties\PublishProfiles\zustaendigkeit - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -166,6 +167,7 @@
     <Content Include="Vue\dataSources\cityDataSource.js" />
     <Content Include="Vue\dataSources\searchDataSource.js" />
     <Content Include="Vue\dataSources\streetDataSource.js" />
+    <Content Include="Vue\dist.js" />
     <Content Include="Vue\main.js" />
     <Content Include="Vue\validation\validator.js" />
     <Content Include="Web.config" />
