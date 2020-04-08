@@ -23,6 +23,10 @@ steps:
 
 - task: CmdLine@2
   inputs:
+    script: 'call npm i'
+
+- task: CmdLine@2
+  inputs:
     script: 'call npm run-script build'
     workingDirectory: ASP.NETwithVue/Vue
 
