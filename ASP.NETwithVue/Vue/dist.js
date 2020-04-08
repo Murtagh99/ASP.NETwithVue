@@ -1293,8 +1293,6 @@ class SearchDataSource {
       this.isValid();
     },
     onBlur: function () {
-      console.log(document.activeElement.tagName);
-
       if (!this.blocker) {
         this.editing = false;
       }
