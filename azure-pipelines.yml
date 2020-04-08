@@ -41,4 +41,4 @@ steps:
 - task: CmdLine@2
   inputs:
     script: 'call npm run-script build'
-    workingDirectory: $(Build.SourcesDirectory.Vue)
+    workingDirectory: ASP.NETwithVue/Vue
