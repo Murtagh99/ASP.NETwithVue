@@ -40,5 +40,5 @@ steps:
 
 - task: CmdLine@2
   inputs:
-    script: 'npm run script build'
+    script: 'npm run-script build'
     workingDirectory: ASP.NETwithVue/Vue
