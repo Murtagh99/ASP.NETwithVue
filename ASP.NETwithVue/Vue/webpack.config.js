@@ -1,5 +1,5 @@
 module.exports = {
-   watch: true,
+   //watch: true,
    entry: './main.js',
    output: {
       filename: 'dist.js'

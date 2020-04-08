@@ -170,6 +170,7 @@
     <Content Include="Vue\dist.js" />
     <Content Include="Vue\main.js" />
     <Content Include="Vue\validation\validator.js" />
+    <Content Include="Vue\webpack.config.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
