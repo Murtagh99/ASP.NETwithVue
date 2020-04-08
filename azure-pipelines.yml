@@ -28,7 +28,8 @@ steps:
 
 - task: Npm@0
   inputs:
-    command: 'run-script build'
+    command: 'run-script'
+    arguments: build
     cwd: ASP.NETwithVue/Vue
 
 - task: VSBuild@1
