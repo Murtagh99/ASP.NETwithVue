@@ -21,10 +21,16 @@ steps:
   inputs:
     restoreSolution: '$(solution)'
 
-- task: CmdLine@2
+- task: Npm@0
   inputs:
-    script: 'call npm run-script build'
-    workingDirectory: ASP.NETwithVue/Vue
+    command: 'ci'
+    cwd: ASP.NETwithVue/Vue
+
+- task: Npm@0
+  inputs:
+    command: 'run-script'
+    arguments: build
+    cwd: ASP.NETwithVue/Vue
 
 - task: VSBuild@1
   inputs:
