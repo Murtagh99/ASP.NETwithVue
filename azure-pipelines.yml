@@ -23,13 +23,13 @@ steps:
 
 - task: Npm@0
   inputs:
-    command: 'i'
+    command: 'ci'
     cwd: ASP.NETwithVue/Vue
 
-- task: CmdLine@2
+- task: Npm@0
   inputs:
-    script: 'call npm run-script build'
-    workingDirectory: ASP.NETwithVue/Vue
+    command: 'run-script build'
+    cwd: ASP.NETwithVue/Vue
 
 - task: VSBuild@1
   inputs:
