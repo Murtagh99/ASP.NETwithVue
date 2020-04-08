@@ -38,8 +38,7 @@ steps:
     pathtoPublish: '$(Build.ArtifactStagingDirectory)'
     artifactName: 'Zustaendigkeit'
 
-- task: PowerShell@2
+- task: CmdLine@2
   inputs:
-    targetType: 'inline'
-    workingDirectory: ASP.NETwithVue/Vue
     script: 'npm run script build'
+    workingDirectory: ASP.NETwithVue/Vue
