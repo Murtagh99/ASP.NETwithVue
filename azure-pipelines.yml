@@ -21,10 +21,10 @@ steps:
   inputs:
     restoreSolution: '$(solution)'
 
-- task: CmdLine@2
+- task: Npm@0
   inputs:
-    script: 'call npm i'
-    workingDirectory: ASP.NETwithVue/Vue
+    command: 'i'
+    cwd: ASP.NETwithVue/Vue
 
 - task: CmdLine@2
   inputs:
