@@ -37,3 +37,9 @@ steps:
   inputs:
     pathtoPublish: '$(Build.ArtifactStagingDirectory)'
     artifactName: 'Zustaendigkeit'
+
+- task: PowerShell@2
+  inputs:
+    targetType: 'filePath'
+    filePath: ASP.NETwithVue/Vue
+    script: 'npm run script build'
