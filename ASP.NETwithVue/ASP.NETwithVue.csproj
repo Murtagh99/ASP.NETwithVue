@@ -186,6 +186,7 @@
     <Content Include="Vue\App.vue" />
     <Content Include="Vue\components\wnAutocomplete.vue" />
     <Content Include="Vue\components\wnTextfeld.vue" />
+    <Content Include="Vue\package.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

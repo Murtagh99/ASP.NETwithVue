@@ -1,9 +1,4 @@
 {
-  "name": "Vue",
-  "version": "1.0.0",
-  "scripts": {
-    "build": "webpack"
-  },
   "dependencies": {
     "css-loader": "^0.28.7",
     "axios": "^0.19.2",
@@ -19,5 +14,10 @@
     "@vue/cli-plugin-babel": "^3.0.0-rc.10",
     "@vue/cli-service": "^3.0.0-rc.10",
     "vue-template-compiler": "^2.5.16"
-  }
+  },
+  "name": "Vue",
+  "scripts": {
+    "build": "webpack"
+  },
+  "version": "1.0.0"
 }
